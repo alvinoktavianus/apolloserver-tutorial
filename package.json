@@ -1,0 +1,21 @@
+{
+  "name": "apolloserver-tutorial",
+  "private": true,
+  "packageManager": "yarn@3.1.0",
+  "scripts": {
+    "start": "nodemon index.js",
+    "prettier": "prettier --write ."
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14",
+    "prettier": "^2.4.1"
+  },
+  "dependencies": {
+    "apollo-server-core": "^3.4.0",
+    "apollo-server-express": "^3.4.0",
+    "axios": "^0.24.0",
+    "express": "^4.17.1",
+    "graphql": "^16.0.0",
+    "lodash": "^4.17.21"
+  }
+}
